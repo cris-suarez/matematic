@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Analisis Combinatorio</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Cris_Ingrid" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 Portable - exelearning.net" />
+<meta name="description" content="Sesion de aprendizaje" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-single-page"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<header id="header">
+<div id="headerContent">
+<h1>Analisis Combinatorio</h1>
+</div>
+</header>
+<section id="main">
+<article class="node level-1-node" id="exe-node-0">
+<header class="nodeDecoration">
+<h1 id="exenode_0_Inicio" class="nodeTitle">Inicio</h1>
+</header>
+<article class="iDevice_wrapper textIdevice" id="id0-0">
+<div class="iDevice emphasis0" >
+<div id="ta0_127_2" class="block iDevice_content">
+<div class="exe-text"><p>&lt;!doctype html&gt;</p>
+<p></p>
+<!-- Google Fonts -->
+<p></p>
+<!-- Bootstrap Icons -->
+<p></p>
+<!-- AOS -->
+<p></p>
+<!-- particles.js -->
+<p>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</p>
+<!-- three.js + VANTA -->
+<p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@latest/dist/vanta.net.min.js"></script>
+</p>
+<!-- MathJax (LaTeX support) -->
+<p>
+<script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(','\\)'], ['$', '$']], displayMath: [['\\[','\\]'], ['$$','$$']], packages: {'[+]': ['ams']} },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code','iframe'] }
+    };
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</p>
+<style>
+    :root{
+      --accent1: #00b4d8;
+      --accent2: #7209b7;
+      --bg-soft: #f5f7ff;
+      --max-width: 1300px;
+      --page-gap: 20px;
+    }
+
+    html,body{height:100%; margin:0; padding:0; overflow-x:hidden;}
+    body{
+      font-family:'Poppins',system-ui,-apple-system,"Segoe UI",Roboto,Arial;
+      background:var(--bg-soft);
+      color:#0b1b2b;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      display:flex;
+      justify-content:center;
+      width:100%;
+    }
+
+    #vanta-bg,#particles-js{position:fixed; inset:0; z-index:-2;}
+    .bg-overlay{position:fixed; inset:0; background:linear-gradient(180deg, rgba(6,182,212,0.02), rgba(114,9,183,0.02)); z-index:-1; pointer-events:none;}
+
+    .page{
+      max-width:var(--max-width); width:100%;
+      margin:36px auto; padding:20px;
+      display:grid; grid-template-columns: repeat(12,1fr); gap:var(--page-gap);
+      box-sizing:border-box;
+    }
+
+    header.hero{
+      grid-column:1 / -1; border-radius:18px; padding:36px; color:white; position:relative; overflow:hidden;
+      box-shadow:0 18px 50px rgba(11,20,40,0.28); border:1px solid rgba(255,255,255,0.06);
+      display:grid; grid-template-columns:1fr 320px; gap:20px; align-items:center;
+      background: linear-gradient(135deg, rgba(13,110,253,0.9), rgba(114,9,183,0.85));
+    }
+    .kicker{ display:inline-block; background:linear-gradient(90deg,var(--accent1),var(--accent2)); color:white; padding:6px 12px; border-radius:999px; font-weight:600; font-size:.85rem; }
+    .hero h1{ margin:12px 0 6px; font-size:clamp(1.6rem,3.4vw,2.4rem); line-height:1.05; }
+    .hero p.lead{ margin:0; color:rgba(255,255,255,0.95); font-size:clamp(0.95rem,1.6vw,1rem); max-width:60ch; }
+    .start-btn{ display:inline-flex; align-items:center; gap:10px; background: linear-gradient(90deg,var(--accent2),var(--accent1)); color:white; padding:12px 18px; border-radius:10px; border:none; font-weight:700; cursor:pointer; }
+
+    .cards{ grid-column:1 / -1; display:grid; grid-template-columns: repeat(4,1fr); gap:18px; margin-top:6px; }
+    .card{ background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.86)); border-radius:12px; padding:16px; box-shadow:0 8px 30px rgba(2,6,23,0.06); border:1px solid rgba(13,110,253,0.06); }
+
+    /* Intro / Motivación grid */
+    .intro-motiv-grid {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .motivacion, .introduccion {
+      background:white; border-radius:12px; padding:20px; box-shadow:0 8px 30px rgba(2,6,23,0.06);
+    }
+
+    .video-wrap{ border-radius:12px; overflow:hidden; background:#f2f6fb; box-shadow:0 8px 30px rgba(0,0,0,0.06); }
+    .video-wrap iframe{ width:100%; height:100%; min-height:260px; border:0; display:block }
+
+    textarea{ width:100%; min-height:80px; padding:10px; border-radius:8px; border:1px solid #d7e7ff; transition:all .3s; resize:vertical; font-size:.95rem }
+    textarea:focus{ border-color:var(--accent1); box-shadow:0 0 0 3px rgba(0,180,216,0.1); outline:none }
+
+    /* ===== GEOGEBRA: ocupa TODO el ancho del contenedor y altura generosa ===== */
+    .geogebra-section{
+      grid-column: 1 / -1;
+      background: linear-gradient(180deg,#ffffff,#f0f7ff);
+      border-radius:16px;
+      padding:18px;
+      box-shadow:0 20px 60px rgba(13,110,253,0.06);
+      border:1px solid rgba(13,110,253,0.06);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      align-items:stretch;
+      width:100%;
+      box-sizing:border-box;
+    }
+
+    /* Frame por defecto (generosa) */
+    .geogebra-frame {
+      width:100%;
+      border-radius:12px;
+      overflow:hidden;
+      background:#eef6ff;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+      box-sizing:border-box;
+      height: min(85vh, 1100px);
+      display:block;
+    }
+
+    /* Clase "large" para ocupar todo el viewport disponible */
+    .geogebra-frame.large {
+      height: 100vh;            /* ocupa toda la altura visible */
+      max-height: calc(100vh - 60px); /* deja espacio para top/bottom si quieres */
+      min-height: 600px;
+    }
+
+    /* iframe always fills the container */
+    .geogebra-frame iframe {
+      width:100%;
+      height:100%;
+      border:0;
+      display:block;
+    }
+
+    .cierre{ grid-column:1 / -1; background:white; border-radius:12px; padding:18px; box-shadow:0 8px 30px rgba(2,6,23,0.06); }
+
+    .btn-center{ text-align:center; margin-top:12px; }
+    .btn-action{ padding:10px 16px; border-radius:10px; border:none; background: linear-gradient(90deg,var(--accent1),var(--accent2)); color:white; font-weight:700; cursor:pointer; }
+
+    input[type="radio"]{ transform:scale(1.15); margin-right:8px; }
+    label{ cursor:pointer; display:flex; align-items:center; padding:4px 0; }
+
+    .section-title{ position:relative; display:inline-block; }
+
+    .topic-grid{ display:grid; grid-template-columns: repeat(12,1fr); gap:12px; align-items:start; box-sizing:border-box; }
+    .span-7{ grid-column:1 / span 7; }
+    .span-8{ grid-column:1 / span 8; }
+    .span-5{ grid-column:8 / -1; }
+    .span-4{ grid-column:9 / -1; }
+    .span-full{ grid-column:1 / -1; }
+
+    .video-wrap.responsive{ position:relative; padding-top:56.25%; min-height:0; overflow:hidden; border-radius:12px; }
+    .video-wrap.responsive iframe, .video-wrap.responsive .external-iframe{ position:absolute !important; top:0; left:0; width:100% !important; height:100% !important; border:0; display:block; }
+    .external-iframe{ width:100% !important; height:auto !important; min-height:180px; }
+
+    .control-card{ background:#fff; padding:12px; border-radius:10px; border:1px solid rgba(13,110,253,0.04); box-sizing:border-box; }
+    .control-card--muted{ background:#f7f9fb; border:1px solid rgba(2,6,23,0.03); }
+
+    .saberes {
+      grid-column: 1 / -1;
+      width: 75vw;
+      max-width: 75%;
+      margin: 0 auto;
+      min-width: 360px;
+      background:white;
+      border-radius:12px;
+      padding:20px;
+      box-shadow:0 8px 30px rgba(2,6,23,0.06);
+    }
+
+    .eval-extended {
+      grid-column: 1 / -1;
+      width: 66.666vw;
+      max-width: 66.666%;
+      margin: 0 auto;
+      min-width: 340px;
+      background: white;
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 8px 30px rgba(2,6,23,0.06);
+      border: 1px solid rgba(13,110,253,0.06);
+    }
+
+    @media (max-width:1100px){ .cards{ grid-template-columns: repeat(2,1fr); } }
+
+    @media (max-width:900px){
+      .page{ padding:16px; grid-template-columns: repeat(6,1fr); gap:14px; }
+      .intro-motiv-grid{ grid-template-columns: 1fr; }
+      .topic-grid{ grid-template-columns: 1fr; }
+      .span-7,.span-8,.span-5,.span-4,.span-full{ grid-column:1 / -1 !important; }
+      .video-wrap.responsive{ padding-top:56.25%; }
+      .geogebra-frame { height: 50vh; min-height: 360px; } /* menor altura en móvil */
+      textarea { min-height:90px; }
+
+      .saberes {
+        width: 100vw;
+        max-width: 100%;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-column: 1 / -1;
+        min-width: 0;
+      }
+      .eval-extended {
+        width: 100vw;
+        max-width: 100%;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width:520px){
+      header.hero{ padding:18px; border-radius:12px; }
+      .geogebra-section{ margin-left:-16px; margin-right:-16px; padding-left:16px; padding-right:16px; border-radius:12px; }
+    }
+  </style>
+<div id="vanta-bg"></div>
+<div id="particles-js" aria-hidden="true"></div>
+<div class="bg-overlay" aria-hidden="true"></div>
+<div class="page" role="main"><header class="hero" role="banner" data-aos="fade-up">
+<div><span class="kicker">SESIÓN DE APRENDIZAJE</span>
+<h1>Análisis Combinatorio: contar, combinar y decidir</h1>
+<p class="lead">En esta sesión aprenderás a usar permutaciones, combinaciones y variaciones para resolver problemas de conteo y calcular probabilidades en situaciones reales. Practicaremos con ejemplos interactivos y simulaciones para comprender cuándo aplicar cada técnica y cómo interpretar resultados.</p>
+</div>
+<div class="hero-meta">
+<div style="margin-bottom: 12px; color: rgba(255,255,255,0.92); font-weight: 600;">Competencia: Resuelve problemas de conteo y toma decisiones con evidencia combinatoria.</div>
+<button class="start-btn" id="startSession">Comenzar sesión <i class="bi bi-play-fill"></i></button></div>
+</header>
+<div class="cards" data-aos="fade-up" data-aos-delay="120">
+<div class="card">
+<h4>Propósito</h4>
+<p>Comprender y aplicar permutaciones, combinaciones y variaciones.</p>
+</div>
+<div class="card">
+<h4>Capacidades</h4>
+<p>Uso de GeoGebra y actividades interactivas.</p>
+</div>
+<div class="card">
+<h4>Desempeño</h4>
+<p>Resolver ejercicios de conteo y justificar la fórmula empleada.</p>
+</div>
+<div class="card">
+<h4>Transversales</h4>
+<p>Razonamiento lógico y comunicación matemática.</p>
+</div>
+</div>
+<!-- Motivación + Introducción (ahora mitad y mitad, responsive apila) -->
+<div class="intro-motiv-grid" data-aos="fade-up" data-aos-delay="160">
+<section class="motivacion" aria-labelledby="motivTitle">
+<h2 id="motivTitle" class="section-title"><i class="bi bi-lightning-charge"></i> Motivación</h2>
+<p>Antes de entrar en contenido técnico, mira este breve video sobre decisiones que requieren conteo de posibilidades.</p>
+<div class="video-wrap responsive" style="margin-top: 12px;"><iframe width="300" height="150" src="https://www.youtube.com/embed/5qap5aO4i9A" title="Video motivacional" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<p style="margin-top: 10px; color: #33485c;">Descripción breve sobre la aplicabilidad de la combinatoria.</p>
+</section>
+<section class="introduccion" aria-labelledby="motivationTitle">
+<h2 id="motivationTitle" class="section-title"><i class="bi bi-lightbulb"></i> Introducción</h2>
+<p>Observa atentamente el siguiente video y piensa: ¿en qué situaciones cotidianas necesitas contar posibilidades o decidir si el orden importa?</p>
+<div class="video-wrap responsive" id="video-motivacional" data-aos="zoom-in" data-aos-delay="220" style="margin-top: 12px;"><iframe width="300" height="150" src="https://www.youtube.com/embed/k8etJmnDrYc" title="Video introductorio" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+<p class="mt-3">Después del video, escribe una breve reflexión sobre un problema real que puedas modelar con combinatoria:</p>
+<div class="reflect"><textarea id="respuesta1" placeholder="Escribe tu reflexión aquí..." aria-label="Reflexión del estudiante"></textarea>
+<div class="btn-center"><button class="btn-action" onclick="mostrarReflexion()">Enviar respuesta</button></div>
+<p id="retro1" style="margin-top: 10px;"></p>
+</div>
+</section>
+</div>
+<!-- Saberes previos (75% ancho, centrado) -->
+<section class="saberes" data-aos="fade-up" data-aos-delay="200" aria-labelledby="saberesTitle">
+<h2 id="saberesTitle" class="section-title"><i class="bi bi-journal-text"></i> Saberes previos</h2>
+<p>Comprueba tus conocimientos básicos de combinatoria:</p>
+<ol>
+<li>¿Qué representa <em>\(n!\)</em> (factorial de <em>n</em>)?
+<ul>
+<li><label><input type="radio" name="q1" value="a" /> El número de permutaciones de \(n\) elementos.</label></li>
+<li><label><input type="radio" name="q1" value="b" /> El número de combinaciones.</label></li>
+<li><label><input type="radio" name="q1" value="c" /> Una notación para promedios.</label></li>
+</ul>
+</li>
+<li style="margin-top: 12px;">Cuando el <strong>orden importa</strong>, ¿qué usamos?
+<ul>
+<li><label><input type="radio" name="q2" value="a" /> Combinaciones.</label></li>
+<li><label><input type="radio" name="q2" value="b" /> Permutaciones.</label></li>
+<li><label><input type="radio" name="q2" value="c" /> Ninguna.</label></li>
+</ul>
+</li>
+</ol>
+<div class="btn-center"><button class="btn-action" onclick="verificarSaberes()">Comprobar respuestas</button></div>
+<p id="resultadoSaberes" style="text-align: center; margin-top: 12px; font-weight: bold;"></p>
+</section>
+<!-- ========== GEO GEBRA: ahora ocupa TODO el espacio asignado (CLASE "large" aplicada) ========== -->
+<section class="geogebra-section" data-aos="fade-up" data-aos-delay="240" aria-labelledby="geogebraTitle">
+<h2 id="geogebraTitle" class="section-title"><i class="bi bi-graph-up"></i> Simulación interactiva GeoGebra</h2>
+<p>Simulación de combinaciones en GeoGebra — interactúa con los parámetros y observa cómo cambia el conteo.</p>
+<!-- Añadí la clase "large" para que el iframe ocupe todo el espacio del viewport -->
+<div class="geogebra-frame large" id="geogebra-simulacion" data-aos="zoom-in" data-aos-delay="260"><iframe width="300" height="150" src="https://www.geogebra.org/material/iframe/id/d9vwxr4t/width/1600/height/1000/border/888888/sfsb/true/smb/true/stb/false" title="GeoGebra Simulación - Análisis Combinatorio" allowfullscreen="allowfullscreen"></iframe></div>
+<p style="font-size: .9rem; color: #33485c; margin-top: 8px;">Consejo: pulsa el botón de pantalla completa del widget para una experiencia aún más cómoda en pantallas pequeñas.</p>
+</section>
+<!-- Desarrollo (perm/comb/var/scratch): aquí van los artículos como antes -->
+<section id="desarrollo" class="geogebra-section" aria-labelledby="desarrolloTitle" data-aos="fade-up" data-aos-delay="280">
+<h2 id="desarrolloTitle" class="section-title"><i class="bi bi-collection-play"></i> Desarrollo</h2>
+<div style="display: grid; grid-template-columns: repeat(12,1fr); gap: 18px;"><!-- Permutaciones -->
+<article class="motivacion" style="grid-column: 1 / -1;" data-aos="fade-up" data-aos-delay="300" aria-labelledby="permTitle">
+<h3 id="permTitle" class="section-title"><i class="bi bi-sort-numeric-down"></i> Permutaciones</h3>
+<div class="topic-grid">
+<div class="span-7">
+<div class="video-wrap responsive"><iframe width="300" height="150" src="https://www.youtube.com/embed/3svszuOz368" title="Permutaciones" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="span-5" style="display: grid; gap: 12px;">
+<div class="control-card"><strong>Reflexión</strong>
+<p style="margin: .4em 0; color: #33485c;">Escribe cómo aplicarías permutaciones a un problema real.</p>
+<textarea id="ref_perm" placeholder="Tu reflexión..."></textarea>
+<div class="btn-center"><button class="btn-action" onclick="saveReflection('perm')">Enviar reflexión</button></div>
+<p id="ref_perm_msg" style="margin-top: 8px; font-weight: 600;"></p>
+</div>
+<div class="control-card control-card--muted"><strong>Pregunta</strong>
+<p style="margin: .4em 0; color: #33485c;">Si tienes 5 libros diferentes y los ordenas, ¿qué fórmula usarías?</p>
+<label><input type="radio" name="q_perm" value="a" /> Combinaciones \(C(5,k)\)</label><br /><label><input type="radio" name="q_perm" value="b" /> Permutaciones \(5!\)</label><br /><label><input type="radio" name="q_perm" value="c" /> Variaciones con repetición</label>
+<div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;"><button class="btn-action" onclick="checkAnswer('perm','b')">Comprobar</button> <button class="btn-action" style="background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);" onclick="resetQuestion('q_perm','perm')">Limpiar</button></div>
+<p id="fb_perm" style="margin-top: 8px; font-weight: bold;"></p>
+</div>
+</div>
+</div>
+</article>
+<!-- Combinaciones -->
+<article class="motivacion" style="grid-column: 1 / -1;" data-aos="fade-up" data-aos-delay="320" aria-labelledby="combTitle">
+<h3 id="combTitle" class="section-title"><i class="bi bi-hash"></i> Combinaciones</h3>
+<div class="topic-grid">
+<div class="span-7">
+<div class="video-wrap responsive"><iframe width="300" height="150" src="https://www.youtube.com/embed/3o68RFW8MjY" title="Combinaciones" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="span-5" style="display: grid; gap: 12px;">
+<div class="control-card"><strong>Reflexión</strong>
+<p style="margin: .4em 0; color: #33485c;">Describe una situación donde el orden no importa.</p>
+<textarea id="ref_comb" placeholder="Tu reflexión..."></textarea>
+<div class="btn-center"><button class="btn-action" onclick="saveReflection('comb')">Enviar reflexión</button></div>
+<p id="ref_comb_msg" style="margin-top: 8px; font-weight: 600;"></p>
+</div>
+<div class="control-card control-card--muted"><strong>Pregunta</strong>
+<p style="margin: .4em 0; color: #33485c;">¿Cuál de estas expresiones corresponde a \(C(6,2)\)?</p>
+<label><input type="radio" name="q_comb" value="a" /> \(\dfrac{6!}{2!(6-2)!}\)</label><br /><label><input type="radio" name="q_comb" value="b" /> \(\dfrac{6!}{(6-2)!}\)</label><br /><label><input type="radio" name="q_comb" value="c" /> \(6^2\)</label>
+<div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;"><button class="btn-action" onclick="checkAnswer('comb','a')">Comprobar</button> <button class="btn-action" style="background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);" onclick="resetQuestion('q_comb','comb')">Limpiar</button></div>
+<p id="fb_comb" style="margin-top: 8px; font-weight: bold;"></p>
+</div>
+</div>
+</div>
+</article>
+<!-- Variaciones -->
+<article class="motivacion" style="grid-column: 1 / -1;" data-aos="fade-up" data-aos-delay="340" aria-labelledby="varTitle">
+<h3 id="varTitle" class="section-title"><i class="bi bi-gear-wide-connected"></i> Variaciones</h3>
+<div class="topic-grid">
+<div class="span-7">
+<div class="video-wrap responsive"><iframe width="300" height="150" src="https://www.youtube.com/embed/g843LMUY5H0" title="Variaciones" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="span-5" style="display: grid; gap: 12px;">
+<div class="control-card"><strong>Reflexión</strong>
+<p style="margin: .4em 0; color: #33485c;">Plantea un ejemplo donde \(k &lt; n\) y el orden importa.</p>
+<textarea id="ref_var" placeholder="Tu reflexión..."></textarea>
+<div class="btn-center"><button class="btn-action" onclick="saveReflection('var')">Enviar reflexión</button></div>
+<p id="ref_var_msg" style="margin-top: 8px; font-weight: 600;"></p>
+</div>
+<div class="control-card control-card--muted"><strong>Pregunta</strong>
+<p style="margin: .4em 0; color: #33485c;">¿Qué expresión corresponde a \(V(5,2)\)?</p>
+<label><input type="radio" name="q_var" value="a" /> \(\dfrac{5!}{(5-2)!}\)</label><br /><label><input type="radio" name="q_var" value="b" /> \(\dfrac{5!}{2!(5-2)!}\)</label><br /><label><input type="radio" name="q_var" value="c" /> \(5^2\)</label>
+<div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;"><button class="btn-action" onclick="checkAnswer('var','a')">Comprobar</button> <button class="btn-action" style="background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);" onclick="resetQuestion('q_var','var')">Limpiar</button></div>
+<p id="fb_var" style="margin-top: 8px; font-weight: bold;"></p>
+</div>
+</div>
+</div>
+</article>
+<!-- Scratch -->
+<article class="motivacion" style="grid-column: 1 / -1;" data-aos="fade-up" data-aos-delay="360" aria-labelledby="scratchTitle">
+<h3 id="scratchTitle" class="section-title"><i class="bi bi-joystick"></i> Actividad interactiva (Scratch)</h3>
+<p style="margin: .2em 0 .8em; color: #33485c;">Interactúa con el proyecto Scratch que ilustra combinatoria de forma didáctica.</p>
+<div class="topic-grid">
+<div class="span-8">
+<div class="video-wrap responsive" style="min-height: 420px;"><iframe width="300" height="150" src="https://scratch.mit.edu/projects/184936370/embed" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></div>
+</div>
+<div class="span-4" style="display: grid; gap: 12px;">
+<div class="control-card"><strong>Observa y responde</strong>
+<p style="margin: .4em 0; color: #33485c;">Después de interactuar con el Scratch, escribe una observación.</p>
+<textarea id="ref_scratch" placeholder="Tu observación..."></textarea>
+<div class="btn-center"><button class="btn-action" onclick="saveReflection('scratch')">Enviar observación</button></div>
+<p id="ref_scratch_msg" style="margin-top: 8px; font-weight: 600;"></p>
+</div>
+<div class="control-card control-card--muted"><strong>Ejercicio</strong>
+<p style="margin: .4em 0; color: #33485c;">¿Cuántas formas diferentes de seleccionar 2 objetos de 4 muestra el proyecto?</p>
+<label><input type="radio" name="q_scratch" value="a" /> 12</label><br /><label><input type="radio" name="q_scratch" value="b" /> 6</label><br /><label><input type="radio" name="q_scratch" value="c" /> 16</label><br />
+<div style="display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;"><button class="btn-action" onclick="checkAnswer('scratch','b')">Comprobar</button> <button class="btn-action" style="background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);" onclick="resetQuestion('q_scratch','scratch')">Limpiar</button></div>
+<p id="fb_scratch" style="margin-top: 8px; font-weight: bold;"></p>
+</div>
+</div>
+</div>
+</article>
+<div style="grid-column: 1 / -1; display: flex; justify-content: flex-end;"><button class="btn-action" onclick="window.scrollTo({top:0,behavior:'smooth'})">Volver arriba</button></div>
+</div>
+</section>
+<!-- Evaluación extendida (centrada, 8/12) -->
+<section id="evaluacion-extendida-section" class="eval-extended" data-aos="fade-up" data-aos-delay="20" aria-labelledby="evalExtTitle">
+<h2 id="evalExtTitle" class="section-title"><i class="bi bi-card-checklist"></i> Evaluación extendida</h2>
+<p>Responde las siguientes preguntas para evaluar en profundidad conceptos de permutaciones, combinaciones y variaciones.</p>
+<div class="control-card" style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">1. Para calcular el número de combinaciones posibles debemos...</p>
+<label><input type="radio" name="ext1" value="A" /> A) Dividir el número de permutaciones entre el número de variaciones.</label><br /><label><input type="radio" name="ext1" value="B" /> B) Sumar el número de variaciones y el de permutaciones.</label><br /><label><input type="radio" name="ext1" value="C" /> C) Multiplicar el número de variaciones por el número de las permutaciones.</label><br /><label><input type="radio" name="ext1" value="D" /> D) Dividir el número de variaciones entre el de las permutaciones.</label><br /><!-- resto de preguntas completas (las pedidas originalmente) -->
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">2. En una permutación:</p>
+<label><input type="radio" name="ext2" value="A" /> A) Importa el orden y no se toman todos los elementos.</label><br /><label><input type="radio" name="ext2" value="B" /> B) Importa el orden y se toman todos los elementos.</label><br /><label><input type="radio" name="ext2" value="C" /> C) No importa el orden pero hay que tomar todos los elementos.</label><br /><label><input type="radio" name="ext2" value="D" /> D) No importa el orden y no hay que tomar todos los elementos.</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">3. ¿Cuántos resultados distintos pueden producirse en una carrera en la que participan 6 atletas?</p>
+<label><input type="radio" name="ext3" value="A" /> A) 6</label><br /><label><input type="radio" name="ext3" value="B" /> B) 120</label><br /><label><input type="radio" name="ext3" value="C" /> C) 840</label><br /><label><input type="radio" name="ext3" value="D" /> D) 720</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">4. Un examen tipo test consta de 10 preguntas con 4 respuestas posibles para cada una de ellas. Si respondemos al azar, ¿Cuántos exámenes distintos pueden hacerse?</p>
+<label><input type="radio" name="ext4" value="A" /> A) 210</label><br /><label><input type="radio" name="ext4" value="B" /> B) 5040</label><br /><label><input type="radio" name="ext4" value="C" /> C) 715</label><br /><label><input type="radio" name="ext4" value="D" /> D) 10000</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">5. Con las letras de la palabra LIBRO, ¿cuántas ordenaciones distintas se pueden hacer que empiecen por vocal?</p>
+<label><input type="radio" name="ext5" value="A" /> A) 42</label><br /><label><input type="radio" name="ext5" value="B" /> B) 48</label><br /><label><input type="radio" name="ext5" value="C" /> C) 24</label><br /><label><input type="radio" name="ext5" value="D" /> D) 84</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">6. ¿Cuántas banderas con tres franjas verticales de distinto color pueden diseñarse para una ONG, si disponemos de 10 colores?</p>
+<label><input type="radio" name="ext6" value="A" /> A) 1000</label><br /><label><input type="radio" name="ext6" value="B" /> B) 720</label><br /><label><input type="radio" name="ext6" value="C" /> C) 30</label><br /><label><input type="radio" name="ext6" value="D" /> D) 120</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">7. ¿De cuántas formas diferentes se pueden cubrir los puestos de presidente, vicepresidente y tesorero de un club de fútbol sabiendo que hay 12 posibles candidatos?</p>
+<label><input type="radio" name="ext7" value="A" /> A) 36</label><br /><label><input type="radio" name="ext7" value="B" /> B) 1302</label><br /><label><input type="radio" name="ext7" value="C" /> C) 1320</label><br /><label><input type="radio" name="ext7" value="D" /> D) 220</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">8. ¿De cuántas formas pueden mezclarse los siete colores del arco iris tomándolos de tres en tres?</p>
+<label><input type="radio" name="ext8" value="A" /> A) 210</label><br /><label><input type="radio" name="ext8" value="B" /> B) 35</label><br /><label><input type="radio" name="ext8" value="C" /> C) 201</label><br /><label><input type="radio" name="ext8" value="D" /> D) 53</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">9. ¿Cuántas maneras diferentes tienen 5 amigos para sentarse alrededor de una mesa circular?</p>
+<label><input type="radio" name="ext9" value="A" /> A) 5</label><br /><label><input type="radio" name="ext9" value="B" /> B) 120</label><br /><label><input type="radio" name="ext9" value="C" /> C) 16</label><br /><label><input type="radio" name="ext9" value="D" /> D) 24</label></div>
+<div style="margin-top: 12px;">
+<p style="margin: .2em 0; font-weight: 600;">10. ¿De cuántas formas pueden colocarse las letras de la palabra MARACA?</p>
+<label><input type="radio" name="ext10" value="A" /> A) 48</label><br /><label><input type="radio" name="ext10" value="B" /> B) 24</label><br /><label><input type="radio" name="ext10" value="C" /> C) 720</label><br /><label><input type="radio" name="ext10" value="D" /> D) 120</label></div>
+<div class="btn-center" style="margin-top: 12px;"><button class="btn-action" onclick="checkExtendedEvaluation()">Comprobar evaluación extendida</button></div>
+<p id="fb_ext_eval" style="margin-top: 8px; font-weight: bold;"></p>
+</div>
+</section>
+<!-- Cierre -->
+<section class="cierre" data-aos="fade-up" data-aos-delay="380" aria-labelledby="cierreTitle">
+<h2 id="cierreTitle" class="section-title"><i class="bi bi-flag"></i> Cierre / Evaluación</h2>
+<p>Responde este breve cuestionario final para evaluar lo aprendido.</p>
+<div style="display: grid; grid-template-columns: repeat(12,1fr); gap: 12px;">
+<div style="grid-column: 1 / span 8; background: #fff; padding: 14px; border-radius: 10px; border: 1px solid rgba(13,110,253,0.04);">
+<p>Define en tus palabras la diferencia entre permutación y combinación.</p>
+<textarea id="eval_q1" placeholder="Tu respuesta..." style="margin-top: 8px;"></textarea>
+<div class="btn-center" style="margin-top: 12px;"><button class="btn-action" onclick="submitEvaluation()">Enviar evaluación</button></div>
+<p id="eval_msg" style="margin-top: 10px; font-weight: bold;"></p>
+</div>
+<div style="grid-column: 9 / -1; background: #f7f9fb; padding: 14px; border-radius: 10px; border: 1px solid rgba(2,6,23,0.03);"><strong>Puntuación (autoevaluación)</strong> <label><input type="radio" name="auto" value="1" /> 1 - Necesito repasar</label><br /><label><input type="radio" name="auto" value="2" /> 2 - Entiendo lo básico</label><br /><label><input type="radio" name="auto" value="3" /> 3 - Me siento confiado</label></div>
+</div>
+</section>
+</div>
+<!-- /.page -->
+<p></p>
+<!-- JS: Bootstrap bundle -->
+<p>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</p>
+<!-- AOS init -->
+<p>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script> AOS.init({ duration: 700, once: true, easing: 'cubic-bezier(.2,.9,.3,1)' }); </script>
+</p>
+<!-- Particles + VANTA init -->
+<p>
+<script>
+    if (window.particlesJS) {
+      particlesJS("particles-js", {
+        particles: {
+          number: { value: 60, density: { enable: true, value_area: 900 } },
+          color: { value: ["#00b4d8", "#7209b7", "#0d6efd"] },
+          shape: { type: "circle" },
+          opacity: { value: 0.45, random: true },
+          size: { value: 2.5, random: true },
+          line_linked: { enable: true, distance: 130, color: "#7c3aed", opacity: 0.22, width: 1 },
+          move: { enable: true, speed: 1.6, random: false, straight: false, out_mode: "out" }
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: { onhover: { enable: true, mode: "grab" }, onclick: { enable: true, mode: "push" } },
+          modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+      });
+    }
+    (function(){ try { VANTA.NET({ el: "#vanta-bg", mouseControls: true, touchControls: true, gyroControls: false, minHeight: 200.00, minWidth: 200.00, scale: 1.0, scaleMobile: 1.0, color: 0x00b4d8, backgroundColor: 0x071038, points: 13.00, spacing: 22.00, showDots: true, maxDistance: 20.00, }); } catch(e){ console.warn('VANTA init failed', e); } })();
+  </script>
+</p>
+<!-- Interaction scripts (resumidos) -->
+<p>
+<script>
+    function mostrarReflexion(){
+      const texto = document.getElementById('respuesta1')?.value.trim() || '';
+      const retro = document.getElementById('retro1');
+      if(!retro) return;
+      if(texto.length > 5){
+        retro.textContent = "Excelente reflexión 💡. Has propuesto un caso donde el conteo es importante.";
+        retro.style.color = "#06b6d4"; retro.style.fontWeight = "600";
+      } else {
+        retro.textContent = "Por favor escribe una reflexión más desarrollada (ejemplo + por qué aplica combinatoria).";
+        retro.style.color = "#ff6b6b";
+      }
+    }
+
+    function saveReflection(topic){
+      const ids = { perm:'ref_perm', comb:'ref_comb', var:'ref_var', scratch:'ref_scratch' };
+      const msgs = { perm:'ref_perm_msg', comb:'ref_comb_msg', var:'ref_var_msg', scratch:'ref_scratch_msg' };
+      const id = ids[topic], msgId = msgs[topic];
+      const val = document.getElementById(id)?.value.trim() || '';
+      const msgEl = document.getElementById(msgId);
+      if(val.length < 6){ if(msgEl){ msgEl.textContent = 'Amplía tu respuesta (incluye ejemplo).'; msgEl.style.color = '#ff6b6b'; } return; }
+      try {
+        const s = JSON.parse(localStorage.getItem('desarrollo_ref')||'{}');
+        s[topic] = { text: val, when: Date.now() };
+        localStorage.setItem('desarrollo_ref', JSON.stringify(s));
+        if(msgEl){ msgEl.textContent = 'Guardado.'; msgEl.style.color = '#06b6d4'; }
+      } catch(e){ if(msgEl){ msgEl.textContent = 'Error al guardar.'; msgEl.style.color = '#ff6b6b'; } }
+    }
+
+    function checkAnswer(topic, correct){
+      const nameMap = { perm:'q_perm', comb:'q_comb', var:'q_var', scratch:'q_scratch' };
+      const fbMap = { perm:'fb_perm', comb:'fb_comb', var:'fb_var', scratch:'fb_scratch' };
+      const qname = nameMap[topic];
+      const fbId = fbMap[topic];
+      const selected = document.querySelector('input[name="'+qname+'"]:checked');
+      const out = document.getElementById(fbId);
+      if(!out) return;
+      out.textContent = '';
+      if(!selected){ out.textContent = 'Selecciona una opción.'; out.style.color = '#ff6b6b'; return; }
+      if(selected.value === correct){ out.textContent = '✅ Correcto'; out.style.color = '#06b6d4'; }
+      else { out.textContent = '✖ Incorrecto — revisa la teoría'; out.style.color = '#ff6b6b'; }
+      try {
+        const a = JSON.parse(localStorage.getItem('desarrollo_answers')||'{}');
+        a[topic] = a[topic] || []; a[topic].push({ answer:selected.value, correct:selected.value===correct, when: Date.now() });
+        localStorage.setItem('desarrollo_answers', JSON.stringify(a));
+      } catch(e){}
+    }
+
+    function resetQuestion(qname, topic){
+      document.querySelectorAll('input[name="'+qname+'"]').forEach(i => i.checked = false);
+      const fbId = { q_perm:'fb_perm', q_comb:'fb_comb', q_var:'fb_var', q_scratch:'fb_scratch' }[qname];
+      if(fbId){ const el = document.getElementById(fbId); if(el) el.textContent = ''; }
+    }
+
+    function verificarSaberes(){
+      const q1 = document.querySelector('input[name="q1"]:checked');
+      const q2 = document.querySelector('input[name="q2"]:checked');
+      const out = document.getElementById('resultadoSaberes');
+      if(!out) return;
+      if(!q1 || !q2){ out.textContent = 'Responde todas las preguntas.'; out.style.color = '#ff6b6b'; return; }
+      if(q1.value === 'a' && q2.value === 'b'){ out.textContent = '✅ Muy bien — conocimientos previos adecuados para continuar.'; out.style.color = '#00b4d8'; out.style.fontWeight = '600'; }
+      else { out.textContent = '🔎 Revisa los conceptos: factorial, permutación y combinación.'; out.style.color = '#ff6b6b'; }
+    }
+
+    function submitEvaluation(){
+      const a1 = document.getElementById('eval_q1')?.value.trim() || '';
+      const out = document.getElementById('eval_msg');
+      if(a1.length < 6){ out.textContent = 'Escribe una respuesta más desarrollada.'; out.style.color = '#ff6b6b'; return; }
+      try {
+        const ev = JSON.parse(localStorage.getItem('desarrollo_eval')||'[]');
+        ev.push({ q1:a1, when: Date.now() });
+        localStorage.setItem('desarrollo_eval', JSON.stringify(ev));
+        out.textContent = 'Evaluación enviada. Buen trabajo ✅'; out.style.color = '#06b6d4';
+      } catch(e){ out.textContent = 'Error al guardar evaluación.'; out.style.color = '#ff6b6b'; }
+    }
+
+    // Extended checks (simple placeholder)
+    function checkExtendedEvaluation(){
+      const fb = document.getElementById('fb_ext_eval');
+      if(!fb) return;
+      fb.textContent = 'Evaluación comprobada (implementa corrección detallada si la deseas).';
+      fb.style.color = '#06b6d4';
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      const startBtn = document.getElementById('startSession');
+      if(startBtn){ startBtn.addEventListener('click', function(){ const motiv = document.querySelector('.intro-motiv-grid'); if(motiv) motiv.scrollIntoView({behavior:'smooth', block:'start'}); }); }
+
+      const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+      const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('aos-animate'); } }); }, observerOptions);
+      document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelectorAll('[data-aos]').forEach(el => el.removeAttribute('data-aos'));
+      }
+
+      if(window.MathJax && typeof MathJax.typesetPromise === 'function'){
+        MathJax.typesetPromise().catch(function(err){ console.warn('MathJax typeset failed: ', err); });
+      }
+    });
+  </script>
+</p></div>
+</div>
+</div>
+</article>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+
+
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body>
+</html>

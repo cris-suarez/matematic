@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value="Analisis Combinatorio"></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addAccessibilityToolbar"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addSearchBox"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value="Cris_Ingrid"></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value="Sesion de aprendizaje"></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_exportElp"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="newPackage"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="5"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="5"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="3">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Inicio"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_typeName"></string>
+        <unicode value="Text"></unicode>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="2">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="127_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&amp;lt;!doctype html&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- Google Fonts --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- Bootstrap Icons --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- AOS --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- particles.js --&gt;
+&lt;p&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js&quot;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- three.js + VANTA --&gt;
+&lt;p&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/tengbao/vanta@latest/dist/vanta.net.min.js&quot;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- MathJax (LaTeX support) --&gt;
+&lt;p&gt;
+&lt;script&gt;
+    window.MathJax = {
+      tex: { inlineMath: [['\\(','\\)'], ['$', '$']], displayMath: [['\\[','\\]'], ['$$','$$']], packages: {'[+]': ['ams']} },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code','iframe'] }
+    };
+  &lt;/script&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js&quot;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;style&gt;
+    :root{
+      --accent1: #00b4d8;
+      --accent2: #7209b7;
+      --bg-soft: #f5f7ff;
+      --max-width: 1300px;
+      --page-gap: 20px;
+    }
+
+    html,body{height:100%; margin:0; padding:0; overflow-x:hidden;}
+    body{
+      font-family:'Poppins',system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,Arial;
+      background:var(--bg-soft);
+      color:#0b1b2b;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      display:flex;
+      justify-content:center;
+      width:100%;
+    }
+
+    #vanta-bg,#particles-js{position:fixed; inset:0; z-index:-2;}
+    .bg-overlay{position:fixed; inset:0; background:linear-gradient(180deg, rgba(6,182,212,0.02), rgba(114,9,183,0.02)); z-index:-1; pointer-events:none;}
+
+    .page{
+      max-width:var(--max-width); width:100%;
+      margin:36px auto; padding:20px;
+      display:grid; grid-template-columns: repeat(12,1fr); gap:var(--page-gap);
+      box-sizing:border-box;
+    }
+
+    header.hero{
+      grid-column:1 / -1; border-radius:18px; padding:36px; color:white; position:relative; overflow:hidden;
+      box-shadow:0 18px 50px rgba(11,20,40,0.28); border:1px solid rgba(255,255,255,0.06);
+      display:grid; grid-template-columns:1fr 320px; gap:20px; align-items:center;
+      background: linear-gradient(135deg, rgba(13,110,253,0.9), rgba(114,9,183,0.85));
+    }
+    .kicker{ display:inline-block; background:linear-gradient(90deg,var(--accent1),var(--accent2)); color:white; padding:6px 12px; border-radius:999px; font-weight:600; font-size:.85rem; }
+    .hero h1{ margin:12px 0 6px; font-size:clamp(1.6rem,3.4vw,2.4rem); line-height:1.05; }
+    .hero p.lead{ margin:0; color:rgba(255,255,255,0.95); font-size:clamp(0.95rem,1.6vw,1rem); max-width:60ch; }
+    .start-btn{ display:inline-flex; align-items:center; gap:10px; background: linear-gradient(90deg,var(--accent2),var(--accent1)); color:white; padding:12px 18px; border-radius:10px; border:none; font-weight:700; cursor:pointer; }
+
+    .cards{ grid-column:1 / -1; display:grid; grid-template-columns: repeat(4,1fr); gap:18px; margin-top:6px; }
+    .card{ background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.86)); border-radius:12px; padding:16px; box-shadow:0 8px 30px rgba(2,6,23,0.06); border:1px solid rgba(13,110,253,0.06); }
+
+    /* Intro / Motivación grid */
+    .intro-motiv-grid {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .motivacion, .introduccion {
+      background:white; border-radius:12px; padding:20px; box-shadow:0 8px 30px rgba(2,6,23,0.06);
+    }
+
+    .video-wrap{ border-radius:12px; overflow:hidden; background:#f2f6fb; box-shadow:0 8px 30px rgba(0,0,0,0.06); }
+    .video-wrap iframe{ width:100%; height:100%; min-height:260px; border:0; display:block }
+
+    textarea{ width:100%; min-height:80px; padding:10px; border-radius:8px; border:1px solid #d7e7ff; transition:all .3s; resize:vertical; font-size:.95rem }
+    textarea:focus{ border-color:var(--accent1); box-shadow:0 0 0 3px rgba(0,180,216,0.1); outline:none }
+
+    /* ===== GEOGEBRA: ocupa TODO el ancho del contenedor y altura generosa ===== */
+    .geogebra-section{
+      grid-column: 1 / -1;
+      background: linear-gradient(180deg,#ffffff,#f0f7ff);
+      border-radius:16px;
+      padding:18px;
+      box-shadow:0 20px 60px rgba(13,110,253,0.06);
+      border:1px solid rgba(13,110,253,0.06);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      align-items:stretch;
+      width:100%;
+      box-sizing:border-box;
+    }
+
+    /* Frame por defecto (generosa) */
+    .geogebra-frame {
+      width:100%;
+      border-radius:12px;
+      overflow:hidden;
+      background:#eef6ff;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+      box-sizing:border-box;
+      height: min(85vh, 1100px);
+      display:block;
+    }
+
+    /* Clase &quot;large&quot; para ocupar todo el viewport disponible */
+    .geogebra-frame.large {
+      height: 100vh;            /* ocupa toda la altura visible */
+      max-height: calc(100vh - 60px); /* deja espacio para top/bottom si quieres */
+      min-height: 600px;
+    }
+
+    /* iframe always fills the container */
+    .geogebra-frame iframe {
+      width:100%;
+      height:100%;
+      border:0;
+      display:block;
+    }
+
+    .cierre{ grid-column:1 / -1; background:white; border-radius:12px; padding:18px; box-shadow:0 8px 30px rgba(2,6,23,0.06); }
+
+    .btn-center{ text-align:center; margin-top:12px; }
+    .btn-action{ padding:10px 16px; border-radius:10px; border:none; background: linear-gradient(90deg,var(--accent1),var(--accent2)); color:white; font-weight:700; cursor:pointer; }
+
+    input[type=&quot;radio&quot;]{ transform:scale(1.15); margin-right:8px; }
+    label{ cursor:pointer; display:flex; align-items:center; padding:4px 0; }
+
+    .section-title{ position:relative; display:inline-block; }
+
+    .topic-grid{ display:grid; grid-template-columns: repeat(12,1fr); gap:12px; align-items:start; box-sizing:border-box; }
+    .span-7{ grid-column:1 / span 7; }
+    .span-8{ grid-column:1 / span 8; }
+    .span-5{ grid-column:8 / -1; }
+    .span-4{ grid-column:9 / -1; }
+    .span-full{ grid-column:1 / -1; }
+
+    .video-wrap.responsive{ position:relative; padding-top:56.25%; min-height:0; overflow:hidden; border-radius:12px; }
+    .video-wrap.responsive iframe, .video-wrap.responsive .external-iframe{ position:absolute !important; top:0; left:0; width:100% !important; height:100% !important; border:0; display:block; }
+    .external-iframe{ width:100% !important; height:auto !important; min-height:180px; }
+
+    .control-card{ background:#fff; padding:12px; border-radius:10px; border:1px solid rgba(13,110,253,0.04); box-sizing:border-box; }
+    .control-card--muted{ background:#f7f9fb; border:1px solid rgba(2,6,23,0.03); }
+
+    .saberes {
+      grid-column: 1 / -1;
+      width: 75vw;
+      max-width: 75%;
+      margin: 0 auto;
+      min-width: 360px;
+      background:white;
+      border-radius:12px;
+      padding:20px;
+      box-shadow:0 8px 30px rgba(2,6,23,0.06);
+    }
+
+    .eval-extended {
+      grid-column: 1 / -1;
+      width: 66.666vw;
+      max-width: 66.666%;
+      margin: 0 auto;
+      min-width: 340px;
+      background: white;
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 8px 30px rgba(2,6,23,0.06);
+      border: 1px solid rgba(13,110,253,0.06);
+    }
+
+    @media (max-width:1100px){ .cards{ grid-template-columns: repeat(2,1fr); } }
+
+    @media (max-width:900px){
+      .page{ padding:16px; grid-template-columns: repeat(6,1fr); gap:14px; }
+      .intro-motiv-grid{ grid-template-columns: 1fr; }
+      .topic-grid{ grid-template-columns: 1fr; }
+      .span-7,.span-8,.span-5,.span-4,.span-full{ grid-column:1 / -1 !important; }
+      .video-wrap.responsive{ padding-top:56.25%; }
+      .geogebra-frame { height: 50vh; min-height: 360px; } /* menor altura en móvil */
+      textarea { min-height:90px; }
+
+      .saberes {
+        width: 100vw;
+        max-width: 100%;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-column: 1 / -1;
+        min-width: 0;
+      }
+      .eval-extended {
+        width: 100vw;
+        max-width: 100%;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width:520px){
+      header.hero{ padding:18px; border-radius:12px; }
+      .geogebra-section{ margin-left:-16px; margin-right:-16px; padding-left:16px; padding-right:16px; border-radius:12px; }
+    }
+  &lt;/style&gt;
+&lt;div id=&quot;vanta-bg&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;particles-js&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-overlay&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;page&quot; role=&quot;main&quot;&gt;&lt;header class=&quot;hero&quot; role=&quot;banner&quot; data-aos=&quot;fade-up&quot;&gt;
+&lt;div&gt;&lt;span class=&quot;kicker&quot;&gt;SESIÓN DE APRENDIZAJE&lt;/span&gt;
+&lt;h1&gt;Análisis Combinatorio: contar, combinar y decidir&lt;/h1&gt;
+&lt;p class=&quot;lead&quot;&gt;En esta sesión aprenderás a usar permutaciones, combinaciones y variaciones para resolver problemas de conteo y calcular probabilidades en situaciones reales. Practicaremos con ejemplos interactivos y simulaciones para comprender cuándo aplicar cada técnica y cómo interpretar resultados.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;hero-meta&quot;&gt;
+&lt;div style=&quot;margin-bottom: 12px; color: rgba(255,255,255,0.92); font-weight: 600;&quot;&gt;Competencia: Resuelve problemas de conteo y toma decisiones con evidencia combinatoria.&lt;/div&gt;
+&lt;button class=&quot;start-btn&quot; id=&quot;startSession&quot;&gt;Comenzar sesión &lt;i class=&quot;bi bi-play-fill&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/header&gt;
+&lt;div class=&quot;cards&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;120&quot;&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;h4&gt;Propósito&lt;/h4&gt;
+&lt;p&gt;Comprender y aplicar permutaciones, combinaciones y variaciones.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;h4&gt;Capacidades&lt;/h4&gt;
+&lt;p&gt;Uso de GeoGebra y actividades interactivas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;h4&gt;Desempeño&lt;/h4&gt;
+&lt;p&gt;Resolver ejercicios de conteo y justificar la fórmula empleada.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;h4&gt;Transversales&lt;/h4&gt;
+&lt;p&gt;Razonamiento lógico y comunicación matemática.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Motivación + Introducción (ahora mitad y mitad, responsive apila) --&gt;
+&lt;div class=&quot;intro-motiv-grid&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;160&quot;&gt;
+&lt;section class=&quot;motivacion&quot; aria-labelledby=&quot;motivTitle&quot;&gt;
+&lt;h2 id=&quot;motivTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-lightning-charge&quot;&gt;&lt;/i&gt; Motivación&lt;/h2&gt;
+&lt;p&gt;Antes de entrar en contenido técnico, mira este breve video sobre decisiones que requieren conteo de posibilidades.&lt;/p&gt;
+&lt;div class=&quot;video-wrap responsive&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://www.youtube.com/embed/5qap5aO4i9A&quot; title=&quot;Video motivacional&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p style=&quot;margin-top: 10px; color: #33485c;&quot;&gt;Descripción breve sobre la aplicabilidad de la combinatoria.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section class=&quot;introduccion&quot; aria-labelledby=&quot;motivationTitle&quot;&gt;
+&lt;h2 id=&quot;motivationTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-lightbulb&quot;&gt;&lt;/i&gt; Introducción&lt;/h2&gt;
+&lt;p&gt;Observa atentamente el siguiente video y piensa: ¿en qué situaciones cotidianas necesitas contar posibilidades o decidir si el orden importa?&lt;/p&gt;
+&lt;div class=&quot;video-wrap responsive&quot; id=&quot;video-motivacional&quot; data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;220&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://www.youtube.com/embed/k8etJmnDrYc&quot; title=&quot;Video introductorio&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p class=&quot;mt-3&quot;&gt;Después del video, escribe una breve reflexión sobre un problema real que puedas modelar con combinatoria:&lt;/p&gt;
+&lt;div class=&quot;reflect&quot;&gt;&lt;textarea id=&quot;respuesta1&quot; placeholder=&quot;Escribe tu reflexión aquí...&quot; aria-label=&quot;Reflexión del estudiante&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;btn-center&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;mostrarReflexion()&quot;&gt;Enviar respuesta&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;retro1&quot; style=&quot;margin-top: 10px;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;!-- Saberes previos (75% ancho, centrado) --&gt;
+&lt;section class=&quot;saberes&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;200&quot; aria-labelledby=&quot;saberesTitle&quot;&gt;
+&lt;h2 id=&quot;saberesTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-journal-text&quot;&gt;&lt;/i&gt; Saberes previos&lt;/h2&gt;
+&lt;p&gt;Comprueba tus conocimientos básicos de combinatoria:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;¿Qué representa &lt;em&gt;\(n!\)&lt;/em&gt; (factorial de &lt;em&gt;n&lt;/em&gt;)?
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q1&quot; value=&quot;a&quot; /&gt; El número de permutaciones de \(n\) elementos.&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q1&quot; value=&quot;b&quot; /&gt; El número de combinaciones.&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q1&quot; value=&quot;c&quot; /&gt; Una notación para promedios.&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li style=&quot;margin-top: 12px;&quot;&gt;Cuando el &lt;strong&gt;orden importa&lt;/strong&gt;, ¿qué usamos?
+&lt;ul&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q2&quot; value=&quot;a&quot; /&gt; Combinaciones.&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q2&quot; value=&quot;b&quot; /&gt; Permutaciones.&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q2&quot; value=&quot;c&quot; /&gt; Ninguna.&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;btn-center&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;verificarSaberes()&quot;&gt;Comprobar respuestas&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;resultadoSaberes&quot; style=&quot;text-align: center; margin-top: 12px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- ========== GEO GEBRA: ahora ocupa TODO el espacio asignado (CLASE &quot;large&quot; aplicada) ========== --&gt;
+&lt;section class=&quot;geogebra-section&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;240&quot; aria-labelledby=&quot;geogebraTitle&quot;&gt;
+&lt;h2 id=&quot;geogebraTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-graph-up&quot;&gt;&lt;/i&gt; Simulación interactiva GeoGebra&lt;/h2&gt;
+&lt;p&gt;Simulación de combinaciones en GeoGebra — interactúa con los parámetros y observa cómo cambia el conteo.&lt;/p&gt;
+&lt;!-- Añadí la clase &quot;large&quot; para que el iframe ocupe todo el espacio del viewport --&gt;
+&lt;div class=&quot;geogebra-frame large&quot; id=&quot;geogebra-simulacion&quot; data-aos=&quot;zoom-in&quot; data-aos-delay=&quot;260&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://www.geogebra.org/material/iframe/id/d9vwxr4t/width/1600/height/1000/border/888888/sfsb/true/smb/true/stb/false&quot; title=&quot;GeoGebra Simulación - Análisis Combinatorio&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p style=&quot;font-size: .9rem; color: #33485c; margin-top: 8px;&quot;&gt;Consejo: pulsa el botón de pantalla completa del widget para una experiencia aún más cómoda en pantallas pequeñas.&lt;/p&gt;
+&lt;/section&gt;
+&lt;!-- Desarrollo (perm/comb/var/scratch): aquí van los artículos como antes --&gt;
+&lt;section id=&quot;desarrollo&quot; class=&quot;geogebra-section&quot; aria-labelledby=&quot;desarrolloTitle&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;280&quot;&gt;
+&lt;h2 id=&quot;desarrolloTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-collection-play&quot;&gt;&lt;/i&gt; Desarrollo&lt;/h2&gt;
+&lt;div style=&quot;display: grid; grid-template-columns: repeat(12,1fr); gap: 18px;&quot;&gt;&lt;!-- Permutaciones --&gt;
+&lt;article class=&quot;motivacion&quot; style=&quot;grid-column: 1 / -1;&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;300&quot; aria-labelledby=&quot;permTitle&quot;&gt;
+&lt;h3 id=&quot;permTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-sort-numeric-down&quot;&gt;&lt;/i&gt; Permutaciones&lt;/h3&gt;
+&lt;div class=&quot;topic-grid&quot;&gt;
+&lt;div class=&quot;span-7&quot;&gt;
+&lt;div class=&quot;video-wrap responsive&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://www.youtube.com/embed/3svszuOz368&quot; title=&quot;Permutaciones&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;span-5&quot; style=&quot;display: grid; gap: 12px;&quot;&gt;
+&lt;div class=&quot;control-card&quot;&gt;&lt;strong&gt;Reflexión&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;Escribe cómo aplicarías permutaciones a un problema real.&lt;/p&gt;
+&lt;textarea id=&quot;ref_perm&quot; placeholder=&quot;Tu reflexión...&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;btn-center&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;saveReflection('perm')&quot;&gt;Enviar reflexión&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;ref_perm_msg&quot; style=&quot;margin-top: 8px; font-weight: 600;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;control-card control-card--muted&quot;&gt;&lt;strong&gt;Pregunta&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;Si tienes 5 libros diferentes y los ordenas, ¿qué fórmula usarías?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_perm&quot; value=&quot;a&quot; /&gt; Combinaciones \(C(5,k)\)&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_perm&quot; value=&quot;b&quot; /&gt; Permutaciones \(5!\)&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_perm&quot; value=&quot;c&quot; /&gt; Variaciones con repetición&lt;/label&gt;
+&lt;div style=&quot;display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;checkAnswer('perm','b')&quot;&gt;Comprobar&lt;/button&gt; &lt;button class=&quot;btn-action&quot; style=&quot;background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);&quot; onclick=&quot;resetQuestion('q_perm','perm')&quot;&gt;Limpiar&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;fb_perm&quot; style=&quot;margin-top: 8px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;!-- Combinaciones --&gt;
+&lt;article class=&quot;motivacion&quot; style=&quot;grid-column: 1 / -1;&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;320&quot; aria-labelledby=&quot;combTitle&quot;&gt;
+&lt;h3 id=&quot;combTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-hash&quot;&gt;&lt;/i&gt; Combinaciones&lt;/h3&gt;
+&lt;div class=&quot;topic-grid&quot;&gt;
+&lt;div class=&quot;span-7&quot;&gt;
+&lt;div class=&quot;video-wrap responsive&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://www.youtube.com/embed/3o68RFW8MjY&quot; title=&quot;Combinaciones&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;span-5&quot; style=&quot;display: grid; gap: 12px;&quot;&gt;
+&lt;div class=&quot;control-card&quot;&gt;&lt;strong&gt;Reflexión&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;Describe una situación donde el orden no importa.&lt;/p&gt;
+&lt;textarea id=&quot;ref_comb&quot; placeholder=&quot;Tu reflexión...&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;btn-center&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;saveReflection('comb')&quot;&gt;Enviar reflexión&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;ref_comb_msg&quot; style=&quot;margin-top: 8px; font-weight: 600;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;control-card control-card--muted&quot;&gt;&lt;strong&gt;Pregunta&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;¿Cuál de estas expresiones corresponde a \(C(6,2)\)?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_comb&quot; value=&quot;a&quot; /&gt; \(\dfrac{6!}{2!(6-2)!}\)&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_comb&quot; value=&quot;b&quot; /&gt; \(\dfrac{6!}{(6-2)!}\)&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_comb&quot; value=&quot;c&quot; /&gt; \(6^2\)&lt;/label&gt;
+&lt;div style=&quot;display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;checkAnswer('comb','a')&quot;&gt;Comprobar&lt;/button&gt; &lt;button class=&quot;btn-action&quot; style=&quot;background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);&quot; onclick=&quot;resetQuestion('q_comb','comb')&quot;&gt;Limpiar&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;fb_comb&quot; style=&quot;margin-top: 8px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;!-- Variaciones --&gt;
+&lt;article class=&quot;motivacion&quot; style=&quot;grid-column: 1 / -1;&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;340&quot; aria-labelledby=&quot;varTitle&quot;&gt;
+&lt;h3 id=&quot;varTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-gear-wide-connected&quot;&gt;&lt;/i&gt; Variaciones&lt;/h3&gt;
+&lt;div class=&quot;topic-grid&quot;&gt;
+&lt;div class=&quot;span-7&quot;&gt;
+&lt;div class=&quot;video-wrap responsive&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://www.youtube.com/embed/g843LMUY5H0&quot; title=&quot;Variaciones&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;span-5&quot; style=&quot;display: grid; gap: 12px;&quot;&gt;
+&lt;div class=&quot;control-card&quot;&gt;&lt;strong&gt;Reflexión&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;Plantea un ejemplo donde \(k &amp;lt; n\) y el orden importa.&lt;/p&gt;
+&lt;textarea id=&quot;ref_var&quot; placeholder=&quot;Tu reflexión...&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;btn-center&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;saveReflection('var')&quot;&gt;Enviar reflexión&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;ref_var_msg&quot; style=&quot;margin-top: 8px; font-weight: 600;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;control-card control-card--muted&quot;&gt;&lt;strong&gt;Pregunta&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;¿Qué expresión corresponde a \(V(5,2)\)?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_var&quot; value=&quot;a&quot; /&gt; \(\dfrac{5!}{(5-2)!}\)&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_var&quot; value=&quot;b&quot; /&gt; \(\dfrac{5!}{2!(5-2)!}\)&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_var&quot; value=&quot;c&quot; /&gt; \(5^2\)&lt;/label&gt;
+&lt;div style=&quot;display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;checkAnswer('var','a')&quot;&gt;Comprobar&lt;/button&gt; &lt;button class=&quot;btn-action&quot; style=&quot;background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);&quot; onclick=&quot;resetQuestion('q_var','var')&quot;&gt;Limpiar&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;fb_var&quot; style=&quot;margin-top: 8px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;!-- Scratch --&gt;
+&lt;article class=&quot;motivacion&quot; style=&quot;grid-column: 1 / -1;&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;360&quot; aria-labelledby=&quot;scratchTitle&quot;&gt;
+&lt;h3 id=&quot;scratchTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-joystick&quot;&gt;&lt;/i&gt; Actividad interactiva (Scratch)&lt;/h3&gt;
+&lt;p style=&quot;margin: .2em 0 .8em; color: #33485c;&quot;&gt;Interactúa con el proyecto Scratch que ilustra combinatoria de forma didáctica.&lt;/p&gt;
+&lt;div class=&quot;topic-grid&quot;&gt;
+&lt;div class=&quot;span-8&quot;&gt;
+&lt;div class=&quot;video-wrap responsive&quot; style=&quot;min-height: 420px;&quot;&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; src=&quot;https://scratch.mit.edu/projects/184936370/embed&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;span-4&quot; style=&quot;display: grid; gap: 12px;&quot;&gt;
+&lt;div class=&quot;control-card&quot;&gt;&lt;strong&gt;Observa y responde&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;Después de interactuar con el Scratch, escribe una observación.&lt;/p&gt;
+&lt;textarea id=&quot;ref_scratch&quot; placeholder=&quot;Tu observación...&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;btn-center&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;saveReflection('scratch')&quot;&gt;Enviar observación&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;ref_scratch_msg&quot; style=&quot;margin-top: 8px; font-weight: 600;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;control-card control-card--muted&quot;&gt;&lt;strong&gt;Ejercicio&lt;/strong&gt;
+&lt;p style=&quot;margin: .4em 0; color: #33485c;&quot;&gt;¿Cuántas formas diferentes de seleccionar 2 objetos de 4 muestra el proyecto?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_scratch&quot; value=&quot;a&quot; /&gt; 12&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_scratch&quot; value=&quot;b&quot; /&gt; 6&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;q_scratch&quot; value=&quot;c&quot; /&gt; 16&lt;/label&gt;&lt;br /&gt;
+&lt;div style=&quot;display: flex; gap: 8px; justify-content: flex-end; margin-top: 8px;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;checkAnswer('scratch','b')&quot;&gt;Comprobar&lt;/button&gt; &lt;button class=&quot;btn-action&quot; style=&quot;background: linear-gradient(90deg,#fff,#eef6ff); color: #07314b; border: 1px solid rgba(7,49,75,0.06);&quot; onclick=&quot;resetQuestion('q_scratch','scratch')&quot;&gt;Limpiar&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;fb_scratch&quot; style=&quot;margin-top: 8px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+&lt;div style=&quot;grid-column: 1 / -1; display: flex; justify-content: flex-end;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;window.scrollTo({top:0,behavior:'smooth'})&quot;&gt;Volver arriba&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- Evaluación extendida (centrada, 8/12) --&gt;
+&lt;section id=&quot;evaluacion-extendida-section&quot; class=&quot;eval-extended&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;20&quot; aria-labelledby=&quot;evalExtTitle&quot;&gt;
+&lt;h2 id=&quot;evalExtTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-card-checklist&quot;&gt;&lt;/i&gt; Evaluación extendida&lt;/h2&gt;
+&lt;p&gt;Responde las siguientes preguntas para evaluar en profundidad conceptos de permutaciones, combinaciones y variaciones.&lt;/p&gt;
+&lt;div class=&quot;control-card&quot; style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;1. Para calcular el número de combinaciones posibles debemos...&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext1&quot; value=&quot;A&quot; /&gt; A) Dividir el número de permutaciones entre el número de variaciones.&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext1&quot; value=&quot;B&quot; /&gt; B) Sumar el número de variaciones y el de permutaciones.&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext1&quot; value=&quot;C&quot; /&gt; C) Multiplicar el número de variaciones por el número de las permutaciones.&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext1&quot; value=&quot;D&quot; /&gt; D) Dividir el número de variaciones entre el de las permutaciones.&lt;/label&gt;&lt;br /&gt;&lt;!-- resto de preguntas completas (las pedidas originalmente) --&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;2. En una permutación:&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext2&quot; value=&quot;A&quot; /&gt; A) Importa el orden y no se toman todos los elementos.&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext2&quot; value=&quot;B&quot; /&gt; B) Importa el orden y se toman todos los elementos.&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext2&quot; value=&quot;C&quot; /&gt; C) No importa el orden pero hay que tomar todos los elementos.&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext2&quot; value=&quot;D&quot; /&gt; D) No importa el orden y no hay que tomar todos los elementos.&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;3. ¿Cuántos resultados distintos pueden producirse en una carrera en la que participan 6 atletas?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext3&quot; value=&quot;A&quot; /&gt; A) 6&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext3&quot; value=&quot;B&quot; /&gt; B) 120&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext3&quot; value=&quot;C&quot; /&gt; C) 840&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext3&quot; value=&quot;D&quot; /&gt; D) 720&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;4. Un examen tipo test consta de 10 preguntas con 4 respuestas posibles para cada una de ellas. Si respondemos al azar, ¿Cuántos exámenes distintos pueden hacerse?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext4&quot; value=&quot;A&quot; /&gt; A) 210&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext4&quot; value=&quot;B&quot; /&gt; B) 5040&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext4&quot; value=&quot;C&quot; /&gt; C) 715&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext4&quot; value=&quot;D&quot; /&gt; D) 10000&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;5. Con las letras de la palabra LIBRO, ¿cuántas ordenaciones distintas se pueden hacer que empiecen por vocal?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext5&quot; value=&quot;A&quot; /&gt; A) 42&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext5&quot; value=&quot;B&quot; /&gt; B) 48&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext5&quot; value=&quot;C&quot; /&gt; C) 24&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext5&quot; value=&quot;D&quot; /&gt; D) 84&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;6. ¿Cuántas banderas con tres franjas verticales de distinto color pueden diseñarse para una ONG, si disponemos de 10 colores?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext6&quot; value=&quot;A&quot; /&gt; A) 1000&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext6&quot; value=&quot;B&quot; /&gt; B) 720&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext6&quot; value=&quot;C&quot; /&gt; C) 30&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext6&quot; value=&quot;D&quot; /&gt; D) 120&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;7. ¿De cuántas formas diferentes se pueden cubrir los puestos de presidente, vicepresidente y tesorero de un club de fútbol sabiendo que hay 12 posibles candidatos?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext7&quot; value=&quot;A&quot; /&gt; A) 36&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext7&quot; value=&quot;B&quot; /&gt; B) 1302&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext7&quot; value=&quot;C&quot; /&gt; C) 1320&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext7&quot; value=&quot;D&quot; /&gt; D) 220&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;8. ¿De cuántas formas pueden mezclarse los siete colores del arco iris tomándolos de tres en tres?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext8&quot; value=&quot;A&quot; /&gt; A) 210&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext8&quot; value=&quot;B&quot; /&gt; B) 35&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext8&quot; value=&quot;C&quot; /&gt; C) 201&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext8&quot; value=&quot;D&quot; /&gt; D) 53&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;9. ¿Cuántas maneras diferentes tienen 5 amigos para sentarse alrededor de una mesa circular?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext9&quot; value=&quot;A&quot; /&gt; A) 5&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext9&quot; value=&quot;B&quot; /&gt; B) 120&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext9&quot; value=&quot;C&quot; /&gt; C) 16&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext9&quot; value=&quot;D&quot; /&gt; D) 24&lt;/label&gt;&lt;/div&gt;
+&lt;div style=&quot;margin-top: 12px;&quot;&gt;
+&lt;p style=&quot;margin: .2em 0; font-weight: 600;&quot;&gt;10. ¿De cuántas formas pueden colocarse las letras de la palabra MARACA?&lt;/p&gt;
+&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext10&quot; value=&quot;A&quot; /&gt; A) 48&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext10&quot; value=&quot;B&quot; /&gt; B) 24&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext10&quot; value=&quot;C&quot; /&gt; C) 720&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;ext10&quot; value=&quot;D&quot; /&gt; D) 120&lt;/label&gt;&lt;/div&gt;
+&lt;div class=&quot;btn-center&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;checkExtendedEvaluation()&quot;&gt;Comprobar evaluación extendida&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;fb_ext_eval&quot; style=&quot;margin-top: 8px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- Cierre --&gt;
+&lt;section class=&quot;cierre&quot; data-aos=&quot;fade-up&quot; data-aos-delay=&quot;380&quot; aria-labelledby=&quot;cierreTitle&quot;&gt;
+&lt;h2 id=&quot;cierreTitle&quot; class=&quot;section-title&quot;&gt;&lt;i class=&quot;bi bi-flag&quot;&gt;&lt;/i&gt; Cierre / Evaluación&lt;/h2&gt;
+&lt;p&gt;Responde este breve cuestionario final para evaluar lo aprendido.&lt;/p&gt;
+&lt;div style=&quot;display: grid; grid-template-columns: repeat(12,1fr); gap: 12px;&quot;&gt;
+&lt;div style=&quot;grid-column: 1 / span 8; background: #fff; padding: 14px; border-radius: 10px; border: 1px solid rgba(13,110,253,0.04);&quot;&gt;
+&lt;p&gt;Define en tus palabras la diferencia entre permutación y combinación.&lt;/p&gt;
+&lt;textarea id=&quot;eval_q1&quot; placeholder=&quot;Tu respuesta...&quot; style=&quot;margin-top: 8px;&quot;&gt;&lt;/textarea&gt;
+&lt;div class=&quot;btn-center&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;button class=&quot;btn-action&quot; onclick=&quot;submitEvaluation()&quot;&gt;Enviar evaluación&lt;/button&gt;&lt;/div&gt;
+&lt;p id=&quot;eval_msg&quot; style=&quot;margin-top: 10px; font-weight: bold;&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;grid-column: 9 / -1; background: #f7f9fb; padding: 14px; border-radius: 10px; border: 1px solid rgba(2,6,23,0.03);&quot;&gt;&lt;strong&gt;Puntuación (autoevaluación)&lt;/strong&gt; &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;auto&quot; value=&quot;1&quot; /&gt; 1 - Necesito repasar&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;auto&quot; value=&quot;2&quot; /&gt; 2 - Entiendo lo básico&lt;/label&gt;&lt;br /&gt;&lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;auto&quot; value=&quot;3&quot; /&gt; 3 - Me siento confiado&lt;/label&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+&lt;!-- /.page --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- JS: Bootstrap bundle --&gt;
+&lt;p&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- AOS init --&gt;
+&lt;p&gt;
+&lt;script src=&quot;https://unpkg.com/aos@2.3.4/dist/aos.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt; AOS.init({ duration: 700, once: true, easing: 'cubic-bezier(.2,.9,.3,1)' }); &lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- Particles + VANTA init --&gt;
+&lt;p&gt;
+&lt;script&gt;
+    if (window.particlesJS) {
+      particlesJS(&quot;particles-js&quot;, {
+        particles: {
+          number: { value: 60, density: { enable: true, value_area: 900 } },
+          color: { value: [&quot;#00b4d8&quot;, &quot;#7209b7&quot;, &quot;#0d6efd&quot;] },
+          shape: { type: &quot;circle&quot; },
+          opacity: { value: 0.45, random: true },
+          size: { value: 2.5, random: true },
+          line_linked: { enable: true, distance: 130, color: &quot;#7c3aed&quot;, opacity: 0.22, width: 1 },
+          move: { enable: true, speed: 1.6, random: false, straight: false, out_mode: &quot;out&quot; }
+        },
+        interactivity: {
+          detect_on: &quot;canvas&quot;,
+          events: { onhover: { enable: true, mode: &quot;grab&quot; }, onclick: { enable: true, mode: &quot;push&quot; } },
+          modes: { grab: { distance: 140, line_linked: { opacity: 1 } }, push: { particles_nb: 4 } }
+        },
+        retina_detect: true
+      });
+    }
+    (function(){ try { VANTA.NET({ el: &quot;#vanta-bg&quot;, mouseControls: true, touchControls: true, gyroControls: false, minHeight: 200.00, minWidth: 200.00, scale: 1.0, scaleMobile: 1.0, color: 0x00b4d8, backgroundColor: 0x071038, points: 13.00, spacing: 22.00, showDots: true, maxDistance: 20.00, }); } catch(e){ console.warn('VANTA init failed', e); } })();
+  &lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- Interaction scripts (resumidos) --&gt;
+&lt;p&gt;
+&lt;script&gt;
+    function mostrarReflexion(){
+      const texto = document.getElementById('respuesta1')?.value.trim() || '';
+      const retro = document.getElementById('retro1');
+      if(!retro) return;
+      if(texto.length &gt; 5){
+        retro.textContent = &quot;Excelente reflexión 💡. Has propuesto un caso donde el conteo es importante.&quot;;
+        retro.style.color = &quot;#06b6d4&quot;; retro.style.fontWeight = &quot;600&quot;;
+      } else {
+        retro.textContent = &quot;Por favor escribe una reflexión más desarrollada (ejemplo + por qué aplica combinatoria).&quot;;
+        retro.style.color = &quot;#ff6b6b&quot;;
+      }
+    }
+
+    function saveReflection(topic){
+      const ids = { perm:'ref_perm', comb:'ref_comb', var:'ref_var', scratch:'ref_scratch' };
+      const msgs = { perm:'ref_perm_msg', comb:'ref_comb_msg', var:'ref_var_msg', scratch:'ref_scratch_msg' };
+      const id = ids[topic], msgId = msgs[topic];
+      const val = document.getElementById(id)?.value.trim() || '';
+      const msgEl = document.getElementById(msgId);
+      if(val.length &lt; 6){ if(msgEl){ msgEl.textContent = 'Amplía tu respuesta (incluye ejemplo).'; msgEl.style.color = '#ff6b6b'; } return; }
+      try {
+        const s = JSON.parse(localStorage.getItem('desarrollo_ref')||'{}');
+        s[topic] = { text: val, when: Date.now() };
+        localStorage.setItem('desarrollo_ref', JSON.stringify(s));
+        if(msgEl){ msgEl.textContent = 'Guardado.'; msgEl.style.color = '#06b6d4'; }
+      } catch(e){ if(msgEl){ msgEl.textContent = 'Error al guardar.'; msgEl.style.color = '#ff6b6b'; } }
+    }
+
+    function checkAnswer(topic, correct){
+      const nameMap = { perm:'q_perm', comb:'q_comb', var:'q_var', scratch:'q_scratch' };
+      const fbMap = { perm:'fb_perm', comb:'fb_comb', var:'fb_var', scratch:'fb_scratch' };
+      const qname = nameMap[topic];
+      const fbId = fbMap[topic];
+      const selected = document.querySelector('input[name=&quot;'+qname+'&quot;]:checked');
+      const out = document.getElementById(fbId);
+      if(!out) return;
+      out.textContent = '';
+      if(!selected){ out.textContent = 'Selecciona una opción.'; out.style.color = '#ff6b6b'; return; }
+      if(selected.value === correct){ out.textContent = '✅ Correcto'; out.style.color = '#06b6d4'; }
+      else { out.textContent = '✖ Incorrecto — revisa la teoría'; out.style.color = '#ff6b6b'; }
+      try {
+        const a = JSON.parse(localStorage.getItem('desarrollo_answers')||'{}');
+        a[topic] = a[topic] || []; a[topic].push({ answer:selected.value, correct:selected.value===correct, when: Date.now() });
+        localStorage.setItem('desarrollo_answers', JSON.stringify(a));
+      } catch(e){}
+    }
+
+    function resetQuestion(qname, topic){
+      document.querySelectorAll('input[name=&quot;'+qname+'&quot;]').forEach(i =&gt; i.checked = false);
+      const fbId = { q_perm:'fb_perm', q_comb:'fb_comb', q_var:'fb_var', q_scratch:'fb_scratch' }[qname];
+      if(fbId){ const el = document.getElementById(fbId); if(el) el.textContent = ''; }
+    }
+
+    function verificarSaberes(){
+      const q1 = document.querySelector('input[name=&quot;q1&quot;]:checked');
+      const q2 = document.querySelector('input[name=&quot;q2&quot;]:checked');
+      const out = document.getElementById('resultadoSaberes');
+      if(!out) return;
+      if(!q1 || !q2){ out.textContent = 'Responde todas las preguntas.'; out.style.color = '#ff6b6b'; return; }
+      if(q1.value === 'a' &amp;&amp; q2.value === 'b'){ out.textContent = '✅ Muy bien — conocimientos previos adecuados para continuar.'; out.style.color = '#00b4d8'; out.style.fontWeight = '600'; }
+      else { out.textContent = '🔎 Revisa los conceptos: factorial, permutación y combinación.'; out.style.color = '#ff6b6b'; }
+    }
+
+    function submitEvaluation(){
+      const a1 = document.getElementById('eval_q1')?.value.trim() || '';
+      const out = document.getElementById('eval_msg');
+      if(a1.length &lt; 6){ out.textContent = 'Escribe una respuesta más desarrollada.'; out.style.color = '#ff6b6b'; return; }
+      try {
+        const ev = JSON.parse(localStorage.getItem('desarrollo_eval')||'[]');
+        ev.push({ q1:a1, when: Date.now() });
+        localStorage.setItem('desarrollo_eval', JSON.stringify(ev));
+        out.textContent = 'Evaluación enviada. Buen trabajo ✅'; out.style.color = '#06b6d4';
+      } catch(e){ out.textContent = 'Error al guardar evaluación.'; out.style.color = '#ff6b6b'; }
+    }
+
+    // Extended checks (simple placeholder)
+    function checkExtendedEvaluation(){
+      const fb = document.getElementById('fb_ext_eval');
+      if(!fb) return;
+      fb.textContent = 'Evaluación comprobada (implementa corrección detallada si la deseas).';
+      fb.style.color = '#06b6d4';
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      const startBtn = document.getElementById('startSession');
+      if(startBtn){ startBtn.addEventListener('click', function(){ const motiv = document.querySelector('.intro-motiv-grid'); if(motiv) motiv.scrollIntoView({behavior:'smooth', block:'start'}); }); }
+
+      const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+      const observer = new IntersectionObserver((entries) =&gt; { entries.forEach(entry =&gt; { if (entry.isIntersecting) { entry.target.classList.add('aos-animate'); } }); }, observerOptions);
+      document.querySelectorAll('[data-aos]').forEach(el =&gt; observer.observe(el));
+
+      if (window.matchMedia &amp;&amp; window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelectorAll('[data-aos]').forEach(el =&gt; el.removeAttribute('data-aos'));
+      }
+
+      if(window.MathJax &amp;&amp; typeof MathJax.typesetPromise === 'function'){
+        MathJax.typesetPromise().catch(function(err){ console.warn('MathJax typeset failed: ', err); });
+      }
+    });
+  &lt;/script&gt;
+&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list></list>
+             <string role="key" value="idevice"></string>
+             <reference key="2"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="0"></int>
+           <string role="key" value="parentNode"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="4"></reference>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="singlepage"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Home"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="children"></string>
+     <list></list>
+    </dictionary>
+   </instance>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="3"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value="Cris_Ingrid"></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value="Sesion de aprendizaje"></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value="Analisis Combinatorio"></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Sesion de aprendizaje"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Analisis Combinatorio"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-10-17T17:42:28.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Cris_Ingrid EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-10-17T16:52:58.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Cris_Ingrid EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Sesion de aprendizaje"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Analisis Combinatorio"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-10-17T17:42:28.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Cris_Ingrid EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2025-10-17T16:52:58.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Cris_Ingrid EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="creative commons: attribution - share alike"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="release"></string>
+  <string value="2.9 Portable"></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="3"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
